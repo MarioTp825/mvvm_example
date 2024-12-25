@@ -1,0 +1,34 @@
+name: mvvm_project
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  domain:
+    path: "./domain"
+
+  data:
+    path: "./data"
+
+  cupertino_icons: ^1.0.8
+
+  # External libraries
+  provider: ^6.1.2 # State Management
+  get_it: ^8.0.3 # Dependency Injection
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+flutter:
+
+  uses-material-design: true
